@@ -1,4 +1,4 @@
-.menu{
+menu{
     text-align: center;
 }
 
@@ -6,10 +6,14 @@ body {
     background-color: white;
 }
 
-h2{
-    background-color: blue;
+h1,h2,h3,h4{
+    background-color:#87CEFA;
 }
 
-h3{
-    background-color: blue;
-}
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
