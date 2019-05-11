@@ -1,13 +1,22 @@
-menu{
+
+.menu{
     text-align: center;
+    background-color: #066d8d;
+    color:blue;
+}
+.menu a{
+    color:white;
 }
 
 body {
     background-color: white;
+    width: 80%;
+    margin:auto;
 }
 
 h1,h2,h3,h4{
     background-color:#87CEFA;
+    text-align: center;
 }
 
 table {
@@ -17,3 +26,10 @@ table {
   table, th, td {
     border: 1px solid black;
   }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    }
