@@ -1,17 +1,26 @@
 
 .menu{
-    text-align: center;
     background-color: #066d8d;
     color:blue;
-}
-.menu a{
-    color:white;
+    height: 50px;
 }
 
-body {
-    background-color: white;
+.menu a{
+    color:white;
+    line-height: 50px;/* centraliza na vertical */
+}
+
+body{
+    margin:0;
+}
+
+.logo{
+    padding-top: 30px;
+}
+
+.container ,.logo ,.menu ul  {
     width: 80%;
-    margin:auto;
+    margin:auto; 
 }
 
 h1,h2,h3,h4{
@@ -21,15 +30,18 @@ h1,h2,h3,h4{
 
 table {
     border-collapse: collapse;
-  }
+}
   
-  table, th, td {
+table, th, td {
     border: 1px solid black;
-  }
-
-  ul {
+}
+ 
+ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
 
+.componentes{
+    width: 620px;
 }
